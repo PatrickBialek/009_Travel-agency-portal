@@ -1,0 +1,30 @@
+.countires {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+
+    &__description {
+        color: #a4a4a4;
+        letter-spacing: 1px;
+        line-height: 1.6;
+        font-size: .95rem;
+    }
+
+    &__single {
+        height: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+        padding: 16px;
+        border: 1px solid #f1f1f1;
+        text-align: left;
+        max-width: 600px;
+        margin-bottom: 20px;
+
+        @mixin atMedium {
+            width: 50%;
+            margin: 0 16px;
+        }
+    }
+}

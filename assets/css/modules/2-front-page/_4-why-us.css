@@ -1,0 +1,47 @@
+.why-us {
+    box-sizing: border-box;
+    padding: 50px 0px;
+    text-align: center;
+    background-position: center;
+    object-fit: cover;
+    color: $base-white;
+
+    & .row {
+        flex-direction: column;
+
+        @mixin atMedium {
+            flex-direction: row;
+        }
+    }
+
+    & .row__3 {
+        width: 100%;
+
+        @mixin atMedium {
+            width: 25%;
+        }
+    }
+
+    &__counter-name {
+        background-color: $base_aqua;
+        padding: 12px 24px;
+        max-width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__counter-name,
+    &__counter-number {
+        display: block;
+    }
+
+    &__counter-number {
+        color: $base-white;
+        font-weight: 700;
+        font-size: 2.6rem;
+    }
+
+    &__single-counter {
+        margin: 0 36px 24px;
+    }
+}

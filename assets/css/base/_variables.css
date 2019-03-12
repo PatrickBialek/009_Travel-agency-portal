@@ -1,0 +1,19 @@
+/*
+Colors which have been used on website
+*/
+
+$base_aqua: #00a0b0;
+$base-white: #fff;
+$base-red: #cc2a36;
+$base-yellow: #edc951;
+$base-black: #000;
+
+/* Base colors modifications */
+$base-red--light: #c25058;
+
+$gray: #5e6d81;
+$gray-dark: #434a54; 
+$gray-light: #a3a3a3;
+$gray-simple-text: #a4a4a4;
+$gray-light-border: #f1f1f1;
+

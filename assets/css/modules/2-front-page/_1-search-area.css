@@ -1,0 +1,30 @@
+.search-area {
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    @mixin atLarge {
+        max-height: 1000px;
+    }
+
+    &__container {
+        padding: 50px 0px;
+        color: $gray-light;
+    }
+
+    &__input-text,
+    &__select-field {
+        height: 40px;
+    }
+
+    &__input-text,
+    &__select-field {
+        margin: 0px 6px;
+        padding: 12px 24px;
+    }
+}

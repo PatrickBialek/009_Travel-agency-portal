@@ -1,0 +1,35 @@
+.promotion {
+
+    &__meta-box {
+        &,
+        & div {
+            display: flex;
+            align-items: center;
+        }
+
+        & span {
+            margin: 12px;
+        }
+
+        background-color: $gray-light-border;
+        width: 100%;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 30px;
+
+        & img {
+            height: 36px;
+        }
+    }
+
+    &__new-price {
+        font-weight: 700;
+        color: $base-red;
+        font-size: 1.4rem;
+    }
+
+    &__old-price {
+        text-decoration: line-through;
+        color: $gray-light;
+    }
+}

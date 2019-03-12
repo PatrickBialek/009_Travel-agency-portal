@@ -1,0 +1,60 @@
+/*
+
+Informtion for Wordrpress in style.css
+
+Theme name: Travel Agency
+Version: 1.0
+Author: Patryk Bialek
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse faucibus elit quis pharetra dapibus. Aliquam sit amet dui ac nisl pretium feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec sed iaculis orci. Suspendisse semper risus sed ante blandit, a feugiat dolor consectetur. Nullam id mauris in ex mattis lacinia nec ut eros. Ut cursus elit vitae eros gravida, nec euismod enim volutpat.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ac ante justo. Phasellus at lorem enim. Donec ut varius lorem. Praesent at arcu nunc. Aenean at accumsan ante. Nullam tristique ipsum et risus fringilla, semper finibus est venenatis. Nullam accumsan finibus ultrices.
+
+Aliquam erat volutpat. Phasellus mollis lacus in pharetra facilisis. Proin semper est mauris, at aliquam nibh molestie a. Phasellus placerat diam lorem, sed iaculis massa ullamcorper sit amet. Aenean ultricies porttitor urna, nec consectetur est rhoncus ac. Maecenas sit amet metus vitae neque porttitor convallis. Proin posuere posuere tellus, ut condimentum lacus condimentum iaculis. Nunc quam tortor, pharetra et odio in, euismod varius enim. Phasellus non neque nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sapien nibh, ultricies et posuere vitae, accumsan in enim. Vestibulum varius ante tortor, quis pretium elit auctor et. Vivamus id arcu eget est ornare tempor ut in quam. Mauris vulputate nisl in justo finibus faucibus.
+
+Curabitur scelerisque mi a ligula hendrerit ullamcorper. Aliquam consequat, enim vitae pellentesque pharetra, nunc risus ultricies sem, a dictum ex nisl id nibh. Vestibulum venenatis diam mi, eget tempus nisi finibus eget. Etiam sit amet eros sed felis congue tempus. Phasellus ultricies magna et orci volutpat vestibulum. Integer fringilla augue in ipsum commodo porttitor. Etiam vehicula at sapien et vulputate. Praesent eget placerat lorem. Sed quis ex congue, tristique felis eget, sagittis dolor. Morbi pulvinar semper ornare.
+*/
+
+@import "normalize.css";
+
+/* SASS and Global'ish Stuff
+========================================================================== */
+@import "base/_variables";
+@import "base/_mixins";
+@import "base/_global";
+@import "base/_topography";
+@import "base/_tools";
+
+/*
+BEM elements
+*/
+@import "modules/0-layout/_1-row";
+@import "modules/0-layout/_2-wrapper";
+@import "modules/0-layout/_3-page-section";
+@import "modules/0-layout/_4-flickity";
+@import "modules/0-layout/_5-btn";
+
+@import "modules/1-header/_1-top-navigation";
+
+@import "modules/2-front-page/_1-search-area";
+@import "modules/2-front-page/_2-promotions";
+@import "modules/2-front-page/_3-quotes";
+@import "modules/2-front-page/_4-why-us";
+@import "modules/2-front-page/_5-blog-news";
+@import "modules/2-front-page/_6-counters";
+
+@import "modules/3-blog/_1-heading-section";
+@import "modules/3-blog/_2-posts-container";
+@import "modules/3-blog/_3-single";
+@import "modules/3-blog/_4-sidebar";
+
+@import "modules/4-trips/_1-promotions";
+@import "modules/4-trips/_2-single-promotion";
+@import "modules/4-trips/_3-old-promotions";
+
+@import "modules/5-countries/_1-countires";
+@import "modules/5-countries/_2-single-country";
+
+@import "modules/6-footer/_1-general-style";
+@import "modules/6-footer/_2-popup-styles";
+
+@import "modules/7-global/_1-global-page-section";

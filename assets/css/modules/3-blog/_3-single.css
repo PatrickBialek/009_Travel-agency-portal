@@ -1,0 +1,23 @@
+.single-post {
+    display: flex;
+    justify-content: center;
+
+    &__content {
+        margin-bottom: 36px;
+    }
+
+    &__excerpt {
+        font-weight: 700;
+    }
+
+    &__post {
+        padding: 50px 25px;
+        width: 70%;
+        box-sizing: border-box;
+
+        & h2 {
+            color: $base-red;
+            margin-top: 0px;
+        }
+    }
+}

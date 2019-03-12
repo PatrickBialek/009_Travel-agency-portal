@@ -1,0 +1,17 @@
+.promotions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+
+    & .promotions__single {
+        margin: 24px;
+
+        @mixin atMedium {
+            width: 50%;
+            max-width: 1000px;
+        }
+    }
+}

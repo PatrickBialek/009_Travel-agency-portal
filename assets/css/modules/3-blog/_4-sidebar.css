@@ -1,0 +1,17 @@
+.sidebar {
+    width: 30%;
+    box-sizing: border-box;
+    padding: 50px 20px;
+
+    &__single-box {
+        margin-bottom: 30px;
+
+        & h3 {
+            margin-bottom: 20px;
+        }
+
+        & ul {
+            padding-left: 20px;
+        }
+    }
+}

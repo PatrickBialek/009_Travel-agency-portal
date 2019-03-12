@@ -1,0 +1,26 @@
+.quotes {
+    padding: 0px 20px;
+    margin-bottom: 50px;
+
+    &__author {
+        font-size: 1.05rem;
+    }
+
+    &,
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    &__container {
+        max-width: 800px;
+    }
+
+    &__content {
+        color: $gray-simple-text;
+        font-style: italic;
+        font-size: .95rem;
+    }
+}

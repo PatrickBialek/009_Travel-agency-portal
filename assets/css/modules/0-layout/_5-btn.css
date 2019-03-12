@@ -1,0 +1,36 @@
+.btn {
+    text-transform: uppercase;
+    transition: all .3s ease-out;
+    text-decoration: none;
+    max-width: 200px;
+
+    &__red {
+        color: #fff;
+        border: none;
+        border-radius: 2px;
+        background-color: #cc2a36;
+        padding: 12px 24px;
+
+        &:hover {
+            background-color: $base-yellow;
+            cursor: pointer;
+        }
+    }
+
+    &__gray {
+        border: 1px solid $gray-light-border;
+        padding: 14px;
+        width: 119px;
+        font-size: .8rem;
+        color: $gray;
+        transition: all .3s ease-out;
+        background-color: $base-white;
+        display: block;
+
+        &:hover {
+            background-color: $gray;
+            color: $gray-light-border;
+        }
+    }
+
+}

@@ -1,0 +1,68 @@
+.wrapper {
+    overflow: hidden;
+    max-width: 1176px;
+    margin: 0 auto;
+    &--padding {
+    padding: 0 20px;
+    }
+    &--t-padding {
+        padding-top: 20px;
+    }
+    &--b-padding {
+        padding-bottom: 20px;
+    }
+	&--narrow {
+        max-width: 700px;
+    }
+    &--article {
+        & p, h1, h2, h3, h4, h5 h6 {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        & img {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    }
+    &--t-margin {
+        @mixin atSmall {
+            margin-top: 10px;
+        }
+        @mixin atMedium {
+            margin-top: 14px;
+        }
+        @mixin atLarge {
+            margin-top: 20px;
+        }
+    }
+    &--b-margin {
+        @mixin atSmall {
+            margin-bottom: 10px;
+        }
+        @mixin atMedium {
+            margin-bottom: 14px;
+        }
+        @mixin atLarge {
+            margin-bottom: 20px;
+        }
+    }
+	&--no-padding-until-small {
+		padding: 0;
+		@mixin atSmall {
+ 			padding: 0 20px;
+ 		}
+    }
+	&--no-padding-until-medium {
+		padding: 0;
+		@mixin atMedium {
+ 			padding: 0 20px;
+ 		}
+    }
+    &--no-padding-until-large {
+		padding: 0;
+		@mixin atLarge {
+			padding: 0 20px;
+			
+ 		}
+	}
+}

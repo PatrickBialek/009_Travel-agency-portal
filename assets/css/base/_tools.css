@@ -1,0 +1,23 @@
+/*
+
+Here are placed classes which you can use as reapiting classes having only one property such us padding, margin, color etc.
+
+*/
+
+/*1. Margin classes */
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-16 {
+    margin-bottom: 16px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}

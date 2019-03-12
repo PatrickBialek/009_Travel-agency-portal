@@ -1,0 +1,16 @@
+.single-country {
+    padding: 24px;
+
+    & a {
+        text-decoration: none;
+    }
+
+    & .btn {
+        display: block;
+        text-align: center;
+    }
+
+    &__excerpt p {
+        font-weight: 700;
+    }
+}
